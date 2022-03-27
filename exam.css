@@ -1,0 +1,54 @@
+html{   
+    width: 100%;   
+    height: 100%;   
+    overflow: hidden;   
+    font-style: sans-serif;   
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans',sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+    overflow: scroll;
+}
+
+h2
+{
+    margin: 5%;
+}
+
+p
+{
+    text-indent: 30px;
+}
+
+#Article
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: #f3ffe7;
+}
+
+#Exercise
+{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+textarea
+{
+    width: 100%;
+    height: 200px;
+}
+
+.underline
+{
+    text-decoration: underline;
+    font-weight: bold;
+}
