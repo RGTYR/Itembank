@@ -5,7 +5,7 @@ function loginJump()
     
     if (account == "admin" && password == "admin")
     {
-        window.open("ItemBank.html")
+        window.open("./src/ItemBank.html")
         window.close()
     }
     else

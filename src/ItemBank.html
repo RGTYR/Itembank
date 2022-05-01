@@ -2,12 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="exam.css"/>
     <script src="Exercise.js"></script>
     <title>试题Demo</title>
 </head>
 <body>
-    <h2>阅读下面的文字，完成4-6题。</h2>
+
+    <div id="ExerciseTitle">
+        <label>阅读下面的文字，完成4-6题。</label>
+        <a id="timer">使用时间：0秒</a>
+        <button>提交</button>
+    </div>
+
     <div id="Article">
         <p>与先前许多伟大的探险一样，我们的旅程起始于厨房。</p>
         <p>当我们看向水面，通常觉得水是平的，然而仔细观察一杯水时，你会发现杯中的水面并不完全平坦，它在边缘处略微向上弯曲——这是它的“弯月面”，这个弯月面的形成是因为水受到了玻璃的吸引，它被拉向杯壁。</p>
@@ -21,29 +29,61 @@
     </div>
 
     <div id="Exercise">
-        <div id="Exercise1">
-            <h3>4.下列对材料相关内容的理解和分析，不正确的一项是(    )(3分)</h3>
-            <input type="radio" name="Exercise1Choices" id="Exercise1Choices1">玻璃杯中“弯月面”与“凸月面”的现象，表明了当水与其他物质接触时，会产生一种吸引力或者排斥力。<br>
-            <input type="radio" name="Exercise1Choices" id="Exercise1Choices2">一个水分子中的氢原子会受到其邻近水分子中的氧原子的吸引，这可以解释为什么水会吸引水、水具有黏性。<br>
-            <input type="radio" name="Exercise1Choices" id="Exercise1Choices3">在一个平滑的厨房操作台上倒几滴水，水会自然地形成一些微微凸起的“小水塘”，这体现出水具有张力这一特性。<br>
-            <input type="radio" name="Exercise1Choices" id="Exercise1Choices4">水质相同的情况下，与土质疏松且含有大颗沙砾的泥土相比，在由细小颗粒组成的泥土中，水向上传输的高度会更高。<br>
-        </div>
+        <form>
+            <fieldset>
+                <legend>4.下列对材料相关内容的理解和分析，不正确的一项是(    )(3分)</legend>
+                <div>
+                  <input type="radio" id="1A" name="Exercise1Choices" value="A">
+                  <label for="1A">玻璃杯中“弯月面”与“凸月面”的现象，表明了当水与其他物质接触时，会产生一种吸引力或者排斥力。</label>
+                </div>
+            
+                <div>
+                  <input type="radio" id="1B" name="Exercise1Choices" value="B">
+                  <label for="1B">一个水分子中的氢原子会受到其邻近水分子中的氧原子的吸引，这可以解释为什么水会吸引水、水具有黏性。</label>
+                </div>
+            
+                <div>
+                  <input type="radio" id="1C" name="Exercise1Choices" value="C">
+                  <label for="1C">在一个平滑的厨房操作台上倒几滴水，水会自然地形成一些微微凸起的“小水塘”，这体现出水具有张力这一特性。</label>
+                </div>
 
-        <div id="Exercise2">
-            <h3>5.下列对材料相关内容的分析和评价，正确的一项是(    )(3分)</h3>
-            <input type="radio" name="Exercise2Choices" id="Exercise2Choices1">“与先前许多伟大的探险一样，我们的旅程起始于厨房”“现在该去野外观察一下这种效应了”，这些语句可以起到提升读者阅读兴趣的作用。<br>
-            <input type="radio" name="Exercise2Choices" id="Exercise2Choices2">为了帮助读者更好地理解水会受到物体表面吸引，作者使用了“摩擦过的气球会因静电轻轻地黏附在一起”这一现象进行说明.<br>
-            <input type="radio" name="Exercise2Choices" id="Exercise2Choices3">水滴从树叶上落下时，会先拉伸成细长的形状，当太细而无法支撑自身的重量时，它才会坠落到地面。这种自然现象表现了水的毛细作用。<br>
-            <input type="radio" name="Exercise2Choices" id="Exercise2Choices4">作者在行文时经常变换叙事的地点，从厨房、小河、小溪到大海，这让读者认识到，凭借室内观察到的水的特性足以预测自然界的变化。<br>
-        </div>
+                <div>
+                    <input type="radio" id="1D" name="Exercise1Choices" value="D">
+                    <label for="1D">水质相同的情况下，与土质疏松且含有大颗沙砾的泥土相比，在由细小颗粒组成的泥土中，水向上传输的高度会更高。</label>
+                </div>
+            </fieldset>
 
-        <div id="Exercise3">
-            <h3>6.文中画横线句子中“其他几个因素”指的是什么? 请根据材料简要说明。(6分)</h3>
-            <textarea id="Exercise3Answer"></textarea>
-        </div>
+            <fieldset>
+                <legend>5.下列对材料相关内容的分析和评价，正确的一项是(    )(3分)</legend>
+                <div>
+                  <input type="radio" id="2A" name="Exercise2Choices" value="A">
+                  <label for="2A">“与先前许多伟大的探险一样，我们的旅程起始于厨房”“现在该去野外观察一下这种效应了”，这些语句可以起到提升读者阅读兴趣的作用。</label>
+                </div>
+            
+                <div>
+                  <input type="radio" id="2B" name="Exercise2Choices" value="B">
+                  <label for="2B">为了帮助读者更好地理解水会受到物体表面吸引，作者使用了“摩擦过的气球会因静电轻轻地黏附在一起”这一现象进行说明</label>
+                </div>
+            
+                <div>
+                  <input type="radio" id="2C" name="Exercise2Choices" value="C">
+                  <label for="2C">水滴从树叶上落下时，会先拉伸成细长的形状，当太细而无法支撑自身的重量时，它才会坠落到地面。这种自然现象表现了水的毛细作用。</label>
+                </div>
 
-        <a id="timer">使用时间：0秒</a>
-        <button>提交</button>
+                <div>
+                    <input type="radio" id="2D" name="Exercise2Choices" value="D">
+                    <label for="2D">作者在行文时经常变换叙事的地点，从厨房、小河、小溪到大海，这让读者认识到，凭借室内观察到的水的特性足以预测自然界的变化。</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div>
+                    <label for="Exercise3">6.文中画横线句子中“其他几个因素”指的是什么? 请根据材料简要说明。(6分)<br></label>
+                    <textarea id="Exercise3" rows="5"></textarea>
+                </div>
+            </fieldset>
+        </form>
+
     </div>
 </body>
 </html>
