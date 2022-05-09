@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="exam.css"/>
+    <script src="Exercise.js"></script>
+    <title>试题Demo</title>
+</head>
+<body>
+
+    <div id="ExerciseTitle">
+        <label>阅读下面的文字，完成7题。</label>
+        <a id="timer">使用时间：秒</a>
+        <button class="button1" disabled>下一题</button>
+        <button class="button1" onclick="lastArticle2()">上一题</button>
+        <button class="button1">提交</button>
+    </div>
+
+    <div id="Article">
+        <p>计量事关国计民生，兼具自然科学和社会科学双重属性，是维持国家机器正常运转并确保其经济和科学技术得以持续稳定发展的基础。对计量的重要性，我们的祖先早有认识，并为推进计量科技的发展和计量管理做出过卓有成效的实践。早在公元前4世纪，秦国的秦孝公就大力支持商鞅变法，该次变法在中国历史上首开以国家力量从法律层面推行统一的度量衡制度之先河。其后100多年时间里，秦国度量衡一直保持稳定，这为秦国的强盛及其最后统一中国奠定了经济和技术基础。古代学者对计量的重要性有充分论述，孔子就曾把“谨权量”作为其治国方略之一进行宣讲。在计量身上集中体现了传统文化中的科学思想和科学方法。</p>
+        <p>中国古代计量的内涵远非度量衡所能包容，它还包括时间计量和空间计量。正是由于学术界有了丰富的度量衡史研究、有了丰富的对古代空间计量和时间计量的研究以及大量相关的对古代社会的研究，这就使得计量史的问世成为可能。2000年，中国大百科全书出版社出版了《计量史话》一书，该书是中国学术界明确以计量史冠名、全面研究包括度量衡史、时间计量、空间计量和计量社会属性在内的中国计量史专书。该书的问世，为中国计量史的表述体系提供了一个可供参考评说的模板。</p>
+        <p>注意这一点又有何用?只关注这一点，可能没什么用。</p>
+        <p>1斛 = 10斗</p>
+        <p>1斗 = 10升</p>
+        <p>1升 = 10合</p>
+        <p>1合 = 10勺</p>
+        <p>在公元2世纪末期,   升的值增大了一些。在日本,   量器标准单位的数目有显著的增加,    这是因为每种被计量的物品都有与众不同的标准值。从17世纪户时代 (1603—1867年) 开始采用每升相当于现在1810立方厘米的容量单位标准。升的大小从那时起被固定来。中国和日本的容量标准变化如图所示。</p>
+        <p>究竟哪种质量系统在古代日本被应用得最广泛，我们迄今未知。看起来中国度量衡是逐渐被引入日本的。公元7世纪, 中国度量衡系统在日本建立了起来。日本的度量衡系统, 也就是我们称作“尺-贯 ”的系统是建立在中国度量衡系统之上的。从公元8世纪至16世纪, 日本使用的都是中国的计量标准。公元16至19世纪间, 1“两”的平均值一直保持在37.47克。深受中国度量衡影响的日本“尺-贯”系统在1958年被废除。中国独立创造了自己的度量衡。由于可用数据的缺乏, 我们只能粗略描绘出中国和日本计量标准演化的梗概。随着更多对此项研究有用的古代文物被发现, 计量标准演化的机制和细节会越来越多地被我们所了解。</p>
+        摘自《量天度地衡万物：中国计量简史》，关增建著，有改动
+    </div>
+
+    <div id="Exercise">
+        <form>
+            <fieldset>
+                <legend>7. 根据阅读材料，下列说法哪一个是正确的？请点击下面的1个选项。</legend>
+                <img src="../img/Picture1.jpg" alt="" width="500" height="400">
+                <div>
+                  <input type="radio" id="1A" name="Exercise1Choices" value="A">
+                  <label for="1A">图中关于中国和日本的容量标准变化的原因是日本使用的“尺-贯”系统</label>
+                </div>
+            
+                <div>
+                  <input type="radio" id="1B" name="Exercise1Choices" value="B">
+                  <label for="1B">中国度量衡是逐渐被引入日本的</label>
+                </div>
+            
+                <div>
+                  <input type="radio" id="1C" name="Exercise1Choices" value="C">
+                  <label for="1C">孔子认为计量和教育一样重要</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="1D" name="Exercise1Choices" value="D">
+                    <label for="1D">计量史的重点内容是度量衡史</label>
+                </div>
+            </fieldset>
+
+        </form>
+
+    </div>
+</body>
+</html>

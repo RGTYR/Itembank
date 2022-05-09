@@ -5,11 +5,11 @@ function loginJump()
     
     if (account == "admin" && password == "admin")
     {
-        window.open("./src/ItemBank.html")
+        window.open('./src/Article1.html')
         window.close()
     }
     else
     {
-        alert("账号不存在或密码错误，请重新输入。")
+        alert("学校名或学生ID不存在，请重新输入。")
     }
 }
