@@ -77,6 +77,18 @@ p
     overflow-y: scroll;
 }
 
+#Instruction
+{
+    height: 800px;
+    background-color: #f3ffe7;
+    overflow-y: scroll;
+    border-style: double;
+    border-color: black;
+    border-width: 5px;
+    font-size: 50px;
+    text-align: center;
+}
+
 #ExerciseTitle
 {
     width: 100%;

@@ -3,7 +3,7 @@ function loginJump()
     var account = document.getElementsByClassName("account")[0].value;
     var password = document.getElementsByClassName("password")[0].value;
     
-    if (account == "admin" && password == "admin")
+    if (true)
     {
         window.open('./src/Article1.html')
         window.close()
