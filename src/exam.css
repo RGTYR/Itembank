@@ -1,15 +1,14 @@
-html{   
-    width: 100%;   
-    height: 100%;   
-    overflow: hidden;   
-    font-style: sans-serif;   
+html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-style: sans-serif;
 }
 
-body
-{
+body {
     width: 95%;
     height: auto;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 50px;
     background-color: #ffffff;
     border-style: double;
@@ -17,13 +16,11 @@ body
     border-width: 5px;
 }
 
-p
-{
+p {
     text-indent: 30px;
 }
 
-.button1 
-{
+.button1 {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     padding: 8px 16px;
@@ -31,32 +28,28 @@ p
     background-color: white;
     color: black;
     border: 2px solid #000000;
-    border-radius:5px;
+    border-radius: 5px;
     font-size: large;
     font-weight: 700;
     cursor: pointer;
 }
 
-.button1:hover 
-{
+.button1:hover {
     background-color: #000000;
     color: white;
 }
 
-.button1:active 
-{
+.button1:active {
     background-color: #6b6b6b;
     color: white;
 }
 
-.button1:disabled
-{
+.button1:disabled {
     background-color: #9e9e9e;
     color: white;
 }
 
-#Article
-{
+#Article {
     height: 800px;
     width: 50%;
     background-color: #f3ffe7;
@@ -67,8 +60,7 @@ p
     border-width: 5px;
 }
 
-#Exercise
-{
+#Exercise {
     height: 800px;
     background-color: #f3ffe7;
     border-style: double;
@@ -77,8 +69,7 @@ p
     overflow-y: scroll;
 }
 
-#Instruction
-{
+#Instruction {
     height: 800px;
     background-color: #f3ffe7;
     overflow-y: scroll;
@@ -89,31 +80,31 @@ p
     text-align: center;
 }
 
-#ExerciseTitle
-{
+#ExerciseTitle {
     width: 100%;
     font-size: x-large;
     font-weight: 900;
 }
 
-#timer
-{
+#timer {
     float: right;
 }
 
-fieldset
-{
+fieldset {
     padding: 20px;
 }
 
-textarea
-{
+textarea {
     width: 100%;
     resize: none;
 }
 
-.underline
-{
+#EnglishWriting {
+    width: 90%;
+    height: 80%;
+}
+
+.underline {
     text-decoration: underline;
     font-weight: bold;
 }
