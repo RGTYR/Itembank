@@ -48,6 +48,7 @@ function lastArticle2() {
     window.location.href = './Article2.html';
 }
 
-function testAlert() {
-    alert("TEST!");
+function testAlert(event) {
+    timeNow = new Date()
+    alert(event.data + " " + event.inputType + " " + timeNow.getTime());
 }
