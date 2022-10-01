@@ -52,6 +52,7 @@ p {
 #Article {
     height: 800px;
     width: 50%;
+    font-size: large;
     background-color: #f3ffe7;
     float: left;
     overflow-y: scroll;
@@ -62,6 +63,7 @@ p {
 
 #Exercise {
     height: 800px;
+    font-size: large;
     background-color: #f3ffe7;
     border-style: double;
     border-color: black;
@@ -100,8 +102,8 @@ textarea {
 }
 
 #EnglishWriting {
-    width: 90%;
-    height: 80%;
+    width: 99%;
+    height: 95%;
 }
 
 .underline {

@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="exam.css" />
-    <script src="Exercise.js"></script>
-    <title>试题Demo</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="exam.css" />
+        <script src="Exercise.js"></script>
+        <title>试题Demo</title>
+    </head>
 
-<body>
+    <body>
 
-    <div id="ExerciseTitle">
-        <label>英文写作</label>
-        <a id="timer">使用时间：0秒</a>
-    </div>
+        <div id="ExerciseTitle">
+            <label>英文写作</label>
+            <a id="timer">使用时间：0秒</a>
+            <button class="button1">提交</button>
+        </div>
 
-    <div id="Instruction">
-        <label for="EnglishWriting">答题区域</label>
-        <textarea id="EnglishWriting" rows="10" oninput="testAlert(event)"></textarea>
-    </div>
+        <div id="Article">
+            The internet is a useful application that has changed the very fabric of our life in an amazingly short
+            time. The internet has been around for quite some time, but it wasn't until the twenty-first century that we
+            have witnessed the revolution enabled by the largest computer networks. Then came social media and other
+            interactive platforms. The internet and its possibilities paved the way to the world we know today. Life has
+            never been the same again. Never before has the effect of the internet been more keenly felt than during the
+            current pandemic. We now work, shop and stay connected with the help of the internet. Describe how the
+            internet has changed our lives in terms of communications, education, remote working, E-commerce, and
+            privacy.
+        </div>
 
-</body>
+        <div id="Exercise">
+            <label for="EnglishWriting">
+                根据左边的要求，在下方空白处开始写作。写作时间是60分钟。
+            </label>
+            <textarea id="EnglishWriting" rows="10" oninput="testAlert(event)"></textarea>
+        </div>
+
+    </body>
 
 </html>
